@@ -11,11 +11,9 @@ const Opcao = styled.li`
     cursor: pointer;
     min-width: 120px;
 `
-
 const Opcoes = styled.ul`
     display: flex;
 `
-
 const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE']
 
 function OpcoesHeader() {
@@ -24,7 +22,7 @@ function OpcoesHeader() {
             { textoOpcoes.map( (texto) => (
                 <Opcao><p>{texto}</p></Opcao>
             ) ) }
-      </Opcoes>
+        </Opcoes>
     )
 }
 
